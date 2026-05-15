@@ -4,28 +4,27 @@ Acest repository conține add-on-ul **Home cost Dashboard** pentru Home Assistan
 
 ## Repository GitHub
 
-Repository recomandat:
-
 `https://github.com/vlad2939/home-cost-dashboard`
 
-## Publicare în GitHub
+## Instalare în Home Assistant
 
-1. Creează repository-ul `home-cost-dashboard` în contul GitHub `vlad2939`.
-2. Publică toate fișierele din acest folder în acel repository.
-3. În Home Assistant, mergi la **Settings → Add-ons → Add-on Store**.
-4. Deschide meniul cu trei puncte și alege **Repositories**.
-5. Adaugă URL-ul:
+1. În Home Assistant, mergi la **Settings → Add-ons → Add-on Store**.
+2. Deschide meniul cu trei puncte și alege **Repositories**.
+3. Adaugă URL-ul:
 
    `https://github.com/vlad2939/home-cost-dashboard`
 
-6. Instalează add-on-ul **Home cost Dashboard**.
+4. Instalează add-on-ul **Home cost Dashboard**.
+5. Pornește add-on-ul și deschide interfața din panoul Home Assistant sau din Web UI.
 
 ## Add-on inclus
 
 - Folder add-on: `homedash`
-- Versiune: `17.3.0`
+- Slug: `homecost`
+- Versiune: `17.3.1`
 - Ingress: activ
 - Port intern: `3000`
+- Port host configurat: `3040`
 - Bază persistentă: `/data/database.json`
 
 ## Actualizare

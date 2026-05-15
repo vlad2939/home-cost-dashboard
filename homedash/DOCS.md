@@ -1,8 +1,8 @@
-# Documentație HomeDash Add-on
+# Documentație Home cost Dashboard Add-on
 
 ## Pornire
 
-După instalare, pornește add-on-ul din Home Assistant. Dacă opțiunea **Show in sidebar** este activă, HomeDash apare în meniul lateral.
+După instalare, pornește add-on-ul din Home Assistant. Dacă opțiunea **Show in sidebar** este activă, HomeCost apare în meniul lateral.
 
 ## Baza de date
 
