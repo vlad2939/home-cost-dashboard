@@ -28,4 +28,4 @@ Home cost Dashboard este un add-on Home Assistant pentru urmărirea și comparar
 
 ## Port
 
-Add-on-ul expune intern portul `3000`. Ingress este activat, iar portul poate fi publicat și direct ca `3000/tcp`.
+Add-on-ul expune intern portul `3040`. Ingress este activat, iar portul poate fi publicat și direct ca `3000/tcp`.
