@@ -1,6 +1,6 @@
 ﻿<!DOCTYPE html>
 <!--
-  HomeDash - intrare principală modularizată.
+  HomeCost - intrare principală modularizată.
   Structură fișiere:
     • index.html  -> shell UI + markup static
     • styles.css  -> stiluri globale + dark theme
@@ -10,13 +10,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="HomeDash - analiză și vizualizare cheltuieli utilități casă">
-  <title>HomeDash – Costuri Casă</title>
+  <meta name="description" content="HomeCost - analiză și vizualizare cheltuieli utilități casă">
+  <title>HomeCost – Costuri Casă</title>
 
   <!--
   ╔══════════════════════════════════════════════════════════════════╗
-  ║              HomeDash – Tracker Cheltuieli Utilități             ║
-  ║                        Versiunea v35                             ║
+  ║      Home Cost Dashboard – Tracker Cheltuieli Utilități          ║
+  ║                                                                  ║
   ╠══════════════════════════════════════════════════════════════════╣
   ║  Dependențe locale (folder assets):                              ║
   ║  • Tailwind CSS  – framework de stiluri utilitare                ║
@@ -78,7 +78,7 @@
     <div class="p-6 border-b border-slate-200 flex items-center justify-between">
       <h1 class="text-xl font-bold tracking-tight text-slate-800 flex items-center gap-2">
         <span class="material-icons" style="color:#4f46e5;font-size:30px">home</span>
-        <span class="font-medium text-2xl">HomeDash</span>
+        <span class="font-medium text-2xl">HomeCost&nbsp;</span>
       </h1>
       <!--
         Buton toggle temă: apelează toggleTheme() din JS.
@@ -86,8 +86,8 @@
         prin funcția setTheme() care actualizează #theme-icon.
       -->
       <button onclick="toggleTheme()" id="theme-toggle"
-              class="p-6 rounded-xl hover:bg-slate-100 dark:hover:bg-slate-700 transition-colors">
-        <span id="theme-icon" class="material-icons" style="font-size:20px">dark_mode</span>
+              class="p-2 rounded-xl hover:bg-slate-100 dark:hover:bg-slate-700 transition-colors">
+        <span id="theme-icon" class="material-icons" style="font-size:30px">dark_mode</span>
       </button>
     </div>
 
