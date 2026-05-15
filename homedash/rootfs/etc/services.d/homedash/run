@@ -1,0 +1,9 @@
+#!/usr/bin/with-contenv sh
+set -e
+
+export PORT=3000
+export HOST=0.0.0.0
+export HOMEDASH_DATA_DIR=/data
+
+cd /app
+exec node /app/server.js
